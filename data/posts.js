@@ -18,13 +18,13 @@ const posts = [
       tags: ["dolci", "pane fritto", "tradizione", "facile"]
   },
   {
-      titolo: "Pasta alla barbabietola cremosa",
+      titolo: "Pasta alla barbabietola",
       contenuto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
       immagine: "images/pasta_barbabietola.jpeg",
       tags: ["pasta", "barbabietola", "primi piatti", "originale"]
   },
   {
-      titolo: "Torta paesana della tradizione",
+      titolo: "Torta paesana",
       contenuto: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
       immagine: "images/torta_paesana.jpeg",
       tags: ["dolci", "tradizione", "torta paesana", "ricette casalinghe"]
