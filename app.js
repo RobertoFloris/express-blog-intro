@@ -11,7 +11,12 @@ app.get('/', (req, res) =>{
 })
 
 app.get('/bacheca', (req, res) =>{
-  res.json(posts)
+  const queryImage = req.query.title;
+  if(!queryImage){
+    return res.json(posts)
+  }
+  const postImage = posts.find(post => post.titolo.includes(queryImage))
+  res.json(postImage)
 })
 
 app.listen(port, () =>{
